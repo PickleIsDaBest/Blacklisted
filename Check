@@ -1,4 +1,3 @@
-repeat wait() until game:IsLoaded()
 BlackList = {}
 
 if table.find(BlackList, game:GetService("Players").LocalPlayer.UserId) then
